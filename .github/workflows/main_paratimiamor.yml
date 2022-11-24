@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'paratimiamor'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7405E178C6964FB1A89BEF0AC4C544BF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_590FBAE0F6BE44528F5EA13F41F9DE1C }}
           package: .
