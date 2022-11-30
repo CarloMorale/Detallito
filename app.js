@@ -9,6 +9,7 @@ let btnNo = document.getElementById("btn_no");
 let divModoSexo = document.getElementsByClassName("modo_sexo")[0]
 
 btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)});
+
 btnSi.addEventListener('click', function(e) {
     alert('Sabía que aceptarías, te amo miamor');
     divModoSexo.style.display = 'block';
@@ -17,10 +18,10 @@ btnSi.addEventListener('click', function(e) {
 });
 
 divModoSexo.addEventListener('click', function(e) {
-    const img = document.createElement("img")
+    const img = document.createElement("img");
     img.src = "media\\imagen_bob.jpg";
-    //divModoSexo.innerHTML = "<h2>Callese la boca joto</h2>"
-    divModoSexo.appendChild = "<h2>Callese la boca joto</h2>"
+    console.log(img);
+    divModoSexo.appendChild(img);
 })
 
 botones = document.getElementsByTagName("button");
